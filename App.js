@@ -9,6 +9,7 @@ import WeatherDetails from './components/WeatherDetails'
 import { colors } from './utils/index'
 import { WEATHER_API_KEY } from 'react-native-dotenv'
 
+const WEATHER_API_KEY = '03f761ae07fe6be0d2e2cdeec95de82b'
 const BASE_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?'
 
 export default function App() {
